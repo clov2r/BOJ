@@ -1,0 +1,6 @@
+n=int(input())
+n_list = list(map(int, input().split()))
+m=max(n_list)
+n=min(n_list)
+print(n, end=' ')
+print(m)
