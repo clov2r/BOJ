@@ -1,0 +1,27 @@
+X=input()
+if(X=='A+'):
+    print("4.3")
+elif(X=='A0'):
+    print("4.0")
+elif(X=='A-'):
+    print("3.7")
+elif(X=='B+'):
+    print("3.3")
+elif(X=='B0'):
+    print("3.0")
+elif(X=='B-'):
+    print("2.7")
+elif(X=='C+'):
+    print("2.3")
+elif(X=='C0'):
+    print("2.0")
+elif(X=='C-'):
+    print("1.7")
+elif(X=='D+'):
+    print("1.3")
+elif(X=='D0'):
+    print("1.0")
+elif(X=='D-'):
+    print("0.7")
+elif(X=='F'):
+    print("0.0")
