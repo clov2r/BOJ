@@ -1,7 +1,7 @@
-A, B=input().split()
-A=int(A[::-1]) #역순 출력 방법
-B=int(B[::-1]) #역순 출력 방법
-if (A>B):
-    print(A)
+X, Y=input().split()
+X1=int(X[::-1])
+Y1=int(Y[::-1])
+if(X1<Y1):
+    print(Y1)
 else:
-    print(B)
+    print(X1)
