@@ -1,9 +1,8 @@
 import sys
-while (True):
+
+while True:
     try:
-        a, b=sys.stdin.readline().split()
-        a=int(a)
-        b=int(b)
-        print(a+b)
-    except :
+        A, B = map(int, sys.stdin.readline().split())
+        print(A + B)
+    except:
         break
