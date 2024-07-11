@@ -1,8 +1,4 @@
-import sys
-test=int(input())
-for i in range(test):
-    a, b=sys.stdin.readline().split()
-    a=int(a)
-    b=int(b)
-    print("Case #%d: " %(i+1), end="")
-    print("%d + %d = %d" %(a, b, a+b))
+N=int(input())
+for i in range(N):
+    A, B=map(int, input().split())
+    print('Case #%d: %d + %d = %d'%(i+1, A, B, A+B))
