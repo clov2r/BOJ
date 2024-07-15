@@ -1,6 +1,3 @@
-n=int(input())
-n_list = list(map(int, input().split()))
-m=max(n_list)
-n=min(n_list)
-print(n, end=' ')
-print(m)
+N=int(input()) # N개의 정수
+N_list=list(map(int, input().split())) # 최솟값 최댓값을 구하는 배열
+print(min(N_list), max(N_list))
